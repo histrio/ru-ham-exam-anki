@@ -66,7 +66,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "eed27ff2-d07a-11ed-ab48-103d1c4cae55",
-            "css": "\n            .card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white; }\n            ul { width: 90%; list-style-type:\"A\"; margin:auto; padding:0; position:relative; left:5%; }\n        ",
+            "css": "",
             "flds": [
                 {
                     "collapsed": false,
@@ -182,7 +182,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}<script> document.getElementById(\"{{Answer}}\").style.backgroundColor = \"green\"</script> ",
+                    "afmt": "{{FrontSide}}<script>document.getElementById(\"{{Answer}}\").style.backgroundColor = \"green\"</script>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -190,7 +190,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "\n                <h2>Вопрос №{{idx}}</h2><br>\n                {{Question}}<br>\n                <ul type='a'>\n                    <li id=\"1\">{{ Choice1 }}</li>\n                    <li id=\"2\">{{ Choice2 }}</li>\n                    <li id=\"3\">{{ Choice3 }}</li>\n                    <li id=\"4\">{{ Choice4 }}</li>\n                </ul>\n            "
+                    "qfmt": "<h2>Вопрос №{{idx}}</h2><br>\n{{Question}}<br>\n<ul type='a'>\n<li id=\"1\">{{ Choice1 }}</li>\n<li id=\"2\">{{ Choice2 }}</li>\n<li id=\"3\">{{ Choice3 }}</li>\n<li id=\"4\">{{ Choice4 }}</li>\n</ul>\n            "
                 }
             ],
             "type": 0,
